@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a {
+            color: black;
+            text-decoration: none; /*tira o sublinhado do link*/
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: red;
+
+        }
+        
+        a:hover {
+            color: darkred;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: crimson;
+        }
+
+        a::before {
+           content: '❀ '; 
+           color: darkmagenta;
+        }
+
+        .especial::before{
+            background-color: coral;
+        }
+
+        a::after {
+            content: ' [link]';
+            font-weight: normal;
+            color: darkgoldenrod;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://g1.globo.com/" target="_blank" rel="extenal">G1</a></li>
+        <li><a href="https://gshow.globo.com/?utm_source=barraGCOM" target="_blank" rel="extenal"> GShow</a></li>
+        <li><a href="https://ge.globo.com/?utm_source=barraGCOM"  target="_blank" rel="extenal" class="especial"> GEsports</a></li>
+        <li><a href="http://cidadedasartes.rio.rj.gov.br/noticias/interna/338#:~:text=O%20choro%20foi%20criado%20a,bin%C3%A1rio%20e%20um%20fraseado%20peculiar.">sss</a></li>
+    </ul>
+</body>
+</html>

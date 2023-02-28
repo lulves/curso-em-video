@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Formatação</title>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito \ Destaque </h2>
+    <p>Essa é uma frase com <b>destaque</b> utilizando a tag B (não semântico)</p>
+    <p>Essa é outra frase com <strong>destaque</strong> utilizando o strong (semântico)</p>
+    <hr>
+    <p> &#9997; Semântica é o segnificado, dizer que algo não tem semâtica é o mesmo que dizer que não tem significado.</p>
+    <hr>
+    
+    <h2>Itálico / Ênfase </h2>
+    <p>Essa é uma frase com <i>ênfase</i> utilizando a tag I (não semântico)</p>
+    <p>Essa é uma frase com <em>ênfase</em> utilizando a tag EM (semântico)</p>
+    
+    <h2>Texto marcado</h2>
+    <p>Essa é uma frase com um <mark>texto marcado</mark> utilizando a tag MARK </p>
+    <p>Essa ainda é uma frase com um <mark style="background-color: darkorchid;">texto marcado</mark>, mas dessa vez alteramos a cor padrão. Se quiser que a mudaça ocorra em todos as tags MARK crie uma variável style no head </p>
+    
+    <h2>Texto grande e texto pequeno</h2>
+    <p>Essa é uma frase com <big>texto grande</big> e com <small>texto pequeno</small></p>
+    
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar um texto como <del>excluido</del> para indicar que ele pode ser desconsiderado</p>
+    
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um texto como <ins>inserido</ins> para indicar que o texto sofreu alterações</p>
+    <p>Podemos também <u>sublinhar um texto</u> com a tag U (não semântica)</p>
+    
+    <h2>Texto sobrescrito</h2>
+    <p>Serve para inserir coisas como por exemplo x<sup>20</sup>+3</p>
+    
+    <h2>Texto subescrito</h2>
+    <p>Serve para inserir coisas como por exemplo H<sub>2</sub>O</p>
+
+    <h1>Outros tipos de formatações</h1>
+    <h2>Código-fonte e Pré-formatação</h2>
+    <p>Você pode identificar um código quando necessário - <code>print('Olá Mundo!)</code> </p>
+    <p>Porém utilizar a tag CODE não serve para por códigos grandes para isso é necessário utilizar a tag PRE antes da CODE</p>
+        <pre>
+            <code>
+        nome = input('Digite seu nome:')
+        print('Bem-vida {}'.format(nome))
+            </code>
+        </pre>
+
+    <h2>Citação</h2>
+    <p>Simples</p>
+    <p>Como diria o filosofo Clovis: <q>Pau que nasce torto mija fora da bacia</q> </p>
+    <p>Completas</p>
+    <blockquote>
+        A tag BLOCKQUOTE cria blocos de citações para textos muitos 
+        grandes, uma otima opção. 
+        É importante lembra do atributo CITE="" onde pode ser feito uma 
+        referencia direta ao site que foi pego a citação
+    </blockquote>
+
+    <h2>Abreviações</h2>
+    <p>Posso incluir uma legenda em uma abreviação para explicar o que ela significa</p>
+    <p>Estamos estudando <abbr title="Linguagem de Marcação de Hipertexto">HTML</abbr> e <abbr title="Folhas de Estilo em Cascata">CSS</abbr> </p>
+
+    <h2>Inverter texto</h2>
+    <p><bdo dir="rtl"> Isso é bem inutil  </bdo></p>
+</body>
+</html>
+<h1>esse é o h1</h1>
+<h2>esse é o h2</h2>
+<h3>esse é o h3</h3>
+<h4>esse é o h4</h4>
+<h5>esse é o h5</h5>
+<h6>esse é o h6</h6>
+<h7>isso não existe</h7>
